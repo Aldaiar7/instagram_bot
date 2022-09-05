@@ -38,7 +38,7 @@ def search_by_hashtag(hashtag, driver):
 def open_firefox(login, password):
     with WebDriver(
         webdriver.Firefox(
-            executable_path="/home/aldaiar/Documents/instabot/geckodriver"
+            executable_path=os.getenv("executable_path")
         )
     ) as browser:
         browser.implicitly_wait(5)
