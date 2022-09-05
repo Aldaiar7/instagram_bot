@@ -3,7 +3,7 @@ Logins with given credentials.
 Searches posts with hashtag.
 Scrolls Page, then likes posts one by one with hashtag.
 
-#Virtual environment
+# Virtual environment
 create virtual env with ``python3 -m venv venv``
 activate it ``. venv/bin/activate ``
 
